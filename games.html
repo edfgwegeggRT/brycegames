@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Games - Been's Hub</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000; /* Black background */
+  color: #00ff00; /* Neon green text */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  border: 2px solid #006400; /* Darker green border */
+  box-shadow: 0 0 5px #004d00; /* Even darker green glow */
+  text-shadow: 0 0 3px #00ff00;
+}
+
+.button:hover {
+  background-color: #1a1a1a; /* Slightly lighter black on hover */
+  box-shadow: 0 0 8px #006400; /* Increased glow on hover */
+  border-color: #008000; /* Brighter green border on hover */
+}
+
+.game-card {
+  position: relative;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bryce Games</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html" class="active">Games</a></li>
+        <li><a href="proxy.html">Proxy</a></li>
+        <li><a href="links.html">Links</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="games" class="section">
+      <h2>Games Collection</h2>
+      <div class="game-grid">
+        <div class="game-card">
+          <h3>Retro Bowl</h3>
+          <p>A retro-style American football game</p>
+          <a href="/games/retro-bowl/" class="button">Play Now</a>
+        </div>
+        <div class="game-card">
+          <h3>1v1.LOL</h3>
+          <p>Building battle royale game</p>
+          <a href="/games/1v1lol/" class="button">Play Now</a>
+        </div>
+        <div class="game-card">
+          <h3>Krunker Io</h3>
+          <p>Fast-paced FPS game</p>
+          <a href="/games/krunker/" class="button">Play Now</a>
+        </div>
+        <div class="game-card">
+          <h3>Polytrack</h3>
+          <p>Racing game</p>
+          <a href="/games/Poly-track" class="button">Play Now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Been's Hub. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // ...existing code...
+    });
+  </script>
+</body>
+</html>
