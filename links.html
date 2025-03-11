@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links - Been's Hub</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #006400; /* Darker green */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #004d00; /* Even darker on hover */
+}
+</style>
+</head>
+<body>
+  <header>
+    <h1>Been's Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="favorites.html">Favorites</a></li>
+        <li><a href="proxy.html">Proxy</a></li>
+        <li><a href="links.html" class="active">Links</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="links" class="section">
+      <h2>Useful Links</h2>
+      <div class="pagination">
+        <button id="prevPage" class="button pagination-button">Previous</button>
+        <span id="pageInfo">Page 1 of 5</span>
+        <button id="nextPage" class="button pagination-button">Next</button>
+      </div>
+
+      <div id="links-container" class="links-grid">
+        <!-- Links will be populated by JavaScript -->
+      </div>
+
+      <div class="pagination">
+        <button id="prevPageBottom" class="button pagination-button">Previous</button>
+        <span id="pageInfoBottom">Page 1 of 5</span>
+        <button id="nextPageBottom" class="button pagination-button">Next</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Been's Hub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
