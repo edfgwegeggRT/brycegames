@@ -1,14 +1,14 @@
 :root {
-  --primary-color: #00ff00;
-  --button-bg: #006400;
+  --primary-color: #800080;
+  --button-bg: #800080;
   --button-hover: #004d00;
   --hover-color: rgba(0, 255, 0, 0.2);
-  --bg-color: #000000;
+  --bg-color: #58004e;
   --card-bg: #0a0a0a;
   --text-color: #ffffff;
   --shadow-color: rgba(0, 255, 0, 0.3);
-  --border-glow: #004d00;
-}
+  --border-glow: #58004e;
+}#58004e
 
 * {
   margin: 0;
