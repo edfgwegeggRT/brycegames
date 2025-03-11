@@ -2,7 +2,7 @@
   --primary-color: #800080;
   --button-bg: #800080;
   --button-hover: #58004e;
-  --hover-color: rgba(128, 0, 128, 1);
+  --hover-color: rgba(128, 0, 128, 0.2);
   --bg-color: #000000;
   --card-bg: #0a0a0a;
   --text-color: #ffffff;
